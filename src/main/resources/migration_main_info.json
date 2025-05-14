@@ -1,0 +1,1257 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "edit": "Edit",
+    "pay": "Pay",
+    "checkBoxLabel": "I agree and approve",
+    "print": "Print",
+    "login": "Login",
+    "logout": "Logout",
+    "preview": "Preview",
+    "next": "Next",
+    "confirm": "Confirm",
+    "download": "Download",
+    "back": "Back",
+    "upload": "Upload",
+    "refresh": "Retry",
+    "send": "Send",
+    "pageNotFound": "Page not found",
+    "noResultsFound": "No results found",
+    "find": "Find",
+    "clean": "Clear",
+    "comboBoxDefaultEmptyLabel": "",
+    "no": "No.",
+    "arrow": "Arrow",
+    "visibility_off": "Show password",
+    "visibility": "Hide password",
+    "email": "E-mail",
+    "delete": "Delete",
+    "error": {
+      "serverIsDown": "Server unreachable",
+      "unSuccessfulAction": "Action unsuccessful",
+      "fillRequiredFields": "Fill required fields",
+      "missingFormAttr": "Form attribute is undefined"
+    },
+    "success": {
+      "successfulAction": "Action successful"
+    },
+    "boolean": {
+      "true": "Yes",
+      "false": "No"
+    },
+    "language": {
+      "LIT": "Lithuanian",
+      "ENG": "English",
+      "RUS": "Russian"
+    },
+    "weekday": {
+      "MONDAY": "Monday",
+      "TUESDAY": "Tuesday",
+      "WEDNESDAY": "Wednesday",
+      "THURSDAY": "Thursday",
+      "FRIDAY": "Friday",
+      "SATURDAY": "Saturday",
+      "SUNDAY": "Sunday"
+    },
+    "dataPrecisionEnum": {
+      "YYYY-MM-DD": "Exact date",
+      "YYYY-MM": "Year and month",
+      "YYYY": "Year",
+      "UNKNOWN": "Unknown"
+    }
+  },
+  "table": {
+    "actions": "Actions",
+    "view": "Preview",
+    "edit": "Edit",
+    "delete": "Delete",
+    "notAvailable": "n/a",
+    "created": "Date created",
+    "export": "Export"
+  },
+  "paginator": {
+    "itemsPerPageLabel": "Items per page",
+    "firstPageLabel": "First page",
+    "nextPageLabel": "Next",
+    "previousPageLabel": "Previous",
+    "lastPageLabel": "Last page",
+    "ofLabel": "of"
+  },
+  "form-wizard": {
+    "descr": {
+      "juridical": "If you have an obligation under article 21(1) or article 36(3) of the Law on the Legal Status of Aliens of the Republic of Lithuania to notify the Migration Department about the foreigner, you may do so by submitting a notice on the changes to the foreigner’s details.",
+      "government": "If you are a state institution or establishment, specified in clause 9 of the Rules for Drawing up and Maintaining the National List of Aliens Forbidden to Enter the Republic of Lithuania, you can submit suggestions (applications) referred to in these Rules.",
+      "mediationLetter": "You can fill in a mediation letter for an alien regarding the issuance of a Schengen, multiple national visa or temporary residence permit and change of employer or job function with the same employer."
+    },
+    "button": {
+      "return": "Back",
+      "next": "Next"
+    },
+    "breadcrumb": {
+      "first": "Service choice",
+      "second": "Nationality of {{nationality}}"
+    },
+    "nationality": "Select your nationality",
+    "details": "Please click here for more information.",
+    "choose": {
+      "physical": "Applications on behalf of natural persons",
+      "juridical": "Applications by legal persons",
+      "government": "Suggestions (applications) on the matters of prohibition for a foreigner to enter Lithuania",
+      "mediationLetter": "I want to submit a mediation letter",
+      "personal-documents": "Identity documents issues",
+      "nationality": "Citizenship issues",
+      "otherApplications": "Other applications"
+    }
+  },
+  "informationPreferences": {
+    "title": "I wish to receive informational messages via email about:",
+    "informationPreferencesEnum": {
+      "COMMON": "common messages",
+      "VISIT": "visit reservation",
+      "PERSONAL_DOCUMENT": "personal and travel documents",
+      "APPLICATION": "status of the submitted application",
+      "MEDIATION_LETTER": "status of the submitted mediation letter"
+    },
+    "confirmation": "Only notifications are sent by e-mail, you can see all the information by logging in to the system. If you haven't received an informational message, don't forget to check spam in your email inbox.<br /><br />If you do not order the information notices, you will not be informed by e-mail about relevant changes related to the documents you produce, the examination of the submitted application or the procedural actions carried out by the Migration Department, you will be obliged to monitor the above-mentioned information by logging in to your personal MIGRIS account and you will be responsible for familiarizing yourself with the provided information in a timely manner. <br /><br />Please note that certain systematic MIGRIS notifications will be sent by e-mail regardless of whether you order information by e-mail.<br /><br />"
+  },
+  "newsletter": {
+    "title": "Newsletter subscription",
+    "email": "Email address",
+    "subscribe": "Subscribe",
+    "language": {
+      "title": "I wish to receive the newsletter in: ",
+      "LT": "Lithuanian",
+      "EN": "English",
+      "BOTH": "Both languages",
+      "hint": "Select a language"
+    },
+    "unsubscribe": {
+      "btn": "Unsubscribe",
+      "title": "Unsubscription",
+      "confirmed": "You have been unsubscribed",
+      "confirm": "Are you sure you want to unsubscribe?"
+    },
+    "summary": {
+      "title": "You were sent a confirmation email",
+      "confirmed": "Newsletter subscription confirmation successful!",
+      "confirm": "Are you sure you want to confirm the subscription?"
+    }
+  },
+  "informing": {
+    "confirmDialogTitle": {
+      "issuingDocumentWithCertificate": {
+        "ER": "Are you sure you want to confirm that you have received the document?<br/> If you do, the document will become valid and it's certificate will be activated. By confirming, you agree that you have read the rules for using the certificate.</br>The rules for using the certificate can be found <a href='https://migracija.lrv.lt/en/useful-information/electronic-signature' target='_blank'>here</a>",
+        "I": "Are you sure you want to confirm that you have received the document <span  class='color-warn'>and activation data of the electronic signature function (PIN code)?</span><br/> If you do, the document will become valid and it's certificate will be activated. By confirming, you agree that you have read the rules for using the certificate.</br>The rules for using the certificate can be found <a href='{{url}}' target='_blank'>here</a>"
+      },
+      "issuingDocumentWithoutCertificate": "Are you sure you want to confirm that you have received the document?<br/>If you do, the document will become valid."
+    }
+  },
+  "visits": {
+    "reserve": {
+      "header": {
+        "reserve": "Visit reservation",
+        "information": "Visit information",
+        "change": "Change visit location / time",
+        "earlyPreview": "Preliminary assessment"
+      },
+      "providerHeader": {
+        "IPT": "Division where you will come to apply in person (abroad)",
+        "URM": "Please indicate which Lithuanian embassy or consulate you will visit to submit your application"
+      },
+      "info": "<b>Attention!</b> If you wish to lodge an application to issue (renew) a residence permit, you will be able to book an appointment only after you fill in the application to issue (renew) a residence permit. You may start filling the application <a href='/en/app/form-wizard'>here</a>.<br/><br/>All services to foreigners are provided by pre-registration only.<br/><br/>You can book visit time for a pre-visit migration service at any of the listed Migration Departments unit, regardless of your declared (planned) residence.<br/><br/>Only persons indicated in the registration form will receive services upon pre-registration. If the person for the visit is registered by an authorized representative, it is necessary to indicate the data of the person who wishes to receive the migration service and not the authorized representative. The contact details of the authorized representative can be specified in the Remarks field.<br/><br/>Customers are kindly requested to arrive not earlier than 10 minutes until the time of the booked visit.<br/><br/><b>IMPORTANT</b>: Citizens of the Republic of Lithuania who wish to order a passport or identity card must book a visit in advance.<br/><br/>The following can visit the customer service department without prior registration:<ul><li>persons who have reached the age of retirement (which is stated in the law on state social insurance pensions of the Lithuanian Republic);</li><li>persons with disabilities;</li><li>citizens of the Republic of Lithuania who wish to order and receive a passport as a matter of urgency, on the same day;</li><li>citizens of the Republic of Lithuania who wish to order and receive an identity card within 1 workday.</li></ul>Migration services are provided to such persons as soon as a customer service desk becomes available.<br/><br/><b>No cash payments will be accepted in all customer service divisions of the Migration Department in Lithuania. You can pay for migration services only by using bank card!</b>",
+      "infoWithApplication": {
+        "common": "All services to foreigners are provided by pre-registration only.<br/><br/><b>Attention!</b> You can book visit time for a pre-visit migration service at any of the listed Migration Departments unit, regardless of your declared (planned) place of residence.<br/><br/>Present yourself personally at the Migration Department on pre-booked time, bring your ID and originals of documents which were attached to your electronic application. Your application will be registered and processed only after you present yourself at the Migration Department on the pre-booked time. Our services are provided only to the foreigners who submit e-applications on residence permits and pre-book visits.",
+        "NACIONALINE_VIZA": "All services to foreigners are provided by pre-registration only.<br /><br /><b>Attention!</b> You can book visit time for a pre-visit migration service at any of the listed Migration Departments unit.<br /><br />Present yourself personally at the Migration Department on pre-booked time, bring your ID and originals of documents which were attached to your electronic application. Your application will be registered and processed only after you present yourself at the Migration Department on the pre-booked time. Our services are provided only to the foreigners who submit e-applications on visa and pre-book visits.",
+        "KL02_IPT-SENGENO_VIZA": "After filling in the application form, the applicant must book an appointment for document submission at the selected Lithuanian visa center. The contact details of the visa centers can be found <a href='https://keliauk.urm.lt/en/embassies?type=visa_centers&letter=all' target='_blank' >here</a>.<br/><br/>Information on appointment booking procedure and necessary documents may be found on the webpage of the selected visa center.<br/><br/>Please note that the application may be accepted only by the visa center selected when filling in the application form.",
+        "KL02_KI-SENGENO_VIZA": "After filling in the application form, the applicant must book an appointment for document submission at the selected visa authority. The list of Lithuanian visa authorities may be found <a href='https://keliauk.urm.lt/en/entry-to-lithuania/visas/visa-authority-competent-for-examining-and-deciding-on-applications-/visa-authorities-of-the-republic-of-lithuania' target='_blank' >here</a>.<br/><br/>Information on appointment booking procedure and necessary documents may be found on the webpage of the selected visa authority.",
+        "LLG_DARBDAVIO_KEITIMAS_01": "All services to foreigners are provided by pre-registration only.<br /><br /><b>Attention!</b> You can book visit time for a pre-visit migration service at any of the listed Migration Departments unit, regardless of your declared place of residence.<br /><br />Present yourself personally at the Migration Department on pre-booked time, bring your ID and originals of documents which were attached to your electronic application. Your application will be registered and processed only after you present yourself at the Migration Department on the pre-booked time. Our services are provided only to the foreigners who submit e-applications on allow to change employer or job function within the same employer and pre-book visits.",
+        "LLG_DARBDAVIO_KEITIMAS_02": "All services to foreigners are provided by pre-registration only.<br /><br /><b>Attention!</b> You can book visit time for a pre-visit migration service at any of the listed Migration Departments unit, regardless of your declared place of residence.<br /><br />Present yourself personally at the Migration Department on pre-booked time, bring your ID and originals of documents which were attached to your electronic application. Your application will be registered and processed only after you present yourself at the Migration Department on the pre-booked time. Our services are provided only to the foreigners who submit e-applications on allow to change employer or job function within the same employer and pre-book visits.",
+        "PIL_": "<b>Attention!</b> Present yourself personally at the Migration Department on pre-booked time, bring your ID and originals of documents which were attached to your electronic application. Your application will be registered and processed only after you present yourself at the Migration Department on the pre-booked time.",
+        "GR_IPT_": "<b>Attention!</b> Your application will be submitted for preliminary assessment. You will be able to book a visit to the office of the external service provider chosen by you only when you receive a notification from MIGRIS that the preliminary assessment is successful (the status of the application will change to \"Application submitted to the external service provider\").<br/><br/>If your application is rejected after the preliminary assessment, you will need to submit a new application. If the application is rejected 2 times in 2 months, you can submit a new application only after 4 months from the date of the last application rejection.<br/><br/>Indicate which office of the external service provider you will attend if the assessment of the application is successful.",
+        "GR_IPT_NO_BAN_": "<b>Attention!</b> Your application will be submitted for preliminary assessment. You will be able to book a visit to the office of the external service provider chosen by you only when you receive a notification from MIGRIS that the preliminary assessment is successful (the status of the application will change to \"Application submitted to the external service provider\").<br/><br/>Indicate which office of the external service provider you will attend if the assessment of the application is successful."
+      },
+      "infoWithoutApplication": "Please note, that every person arriving for an individual service, needs to have a separate pre-booked arrival timeslot (e. g. where you may want to order a document for an adult and a child you will need to book 2 separate timeslots, one person per timeslot). No booking of a separate arrival time-slot is required for accompanying persons with no requests for service.<br /><br />Visit reservation confirmation link will be send to your email after filling the reservation form. You must confirm it in 1 hour.<br /><b>Attention!</b> Your visit reservation will only be successful when you confirm it by link in your email.",
+      "infoChangeTime": "Current valid visit reservation:",
+      "service": "Visit type",
+      "serviceDescription": {
+        "KL45_01": "Book an appointment for this service if You want to submit an application for acquisition of citizenship of the Republic of Lithuania. Application forms can be found <a href='https://migracija.lrv.lt/lt/paslaugos/elektronines-paslaugos/prasymu-formos/prasymu-del-lietuvos-respublikos-pilietybes-formos' target='_blank'>here<a>. Applications for acquisition of citizenship of the Republic of Lithuania cannot be submitted electronically.",
+        "KL45_09": "Book an appointment for this service if You have a valid temporary residence permit, Your employment contract is not terminated and You want to change an employer or Your job function with the same employer. Please bring filled application form to change Your employer or job function at Your arrival to Migration Department unit. Application can be found <a href='https://migracija.lrv.lt/lt/paslaugos/elektronines-paslaugos/prasymu-formos/prasymas-leisti-pakeisti-darbdavi-arba-darbo-funkcija-pas-ta-pati-darbdavi' target='_blank'>here</a>.",
+        "KL45_10": "Reserve this service if you want to collect the issued document, you can pick up the document at the department where you applied",
+        "KL45_13": "You can book an appointment if You have general questions about visas, residence permits, acquisition of citizenship of the Republic of Lithuania, wish to submit additional documents related to the processing of Your application, etc.",
+        "KL45_14": "Book an appointment for this service if your application has been accepted in a virtual way without you arriving at the Migration Department and you have received a notification from the Migration Department of your arrival to provide biometric data and original documents attached to the application.<br/>Also book an appointment for this service if the Migration Department has made a decision to grant you asylum and issue a residence permit."
+      },
+      "templateType": {
+        "family": "With this request, visit to Sapiegos str. 1 may apply only to foreigners who are start-ups, high-skilled workers or LR registered company participant and (or) manager, shareholder or family member, while the LLG exchange - a foreigner who is Startup or LR registered company participant and (or) leader or shareholder, family member.",
+        "internationalHouse": "Please be advised that International House Vilnius (Konstitucijos pr. 3) and Klaipėda (Taikos pr. 52C) is offering services only for family members of foreign citizens of the following categories:<ul><li>a highly – qualified employee;</li><li>a startup;</li><li>an entrepreneur;</li><li>a lecturer or researcher;</li><li>an intra-corporate transferee;</li><li>a person arriving under the Law on Investment;</li><li>a citizen of Australia, Japan, United Kingdom, USA, Canada, New Zealand or South Korea, aiming to engage into work or other activity in Lithuania.</li></ul>Foreign citizens arriving to foreigners of other categories or to the Lithuanian citizens are requested to book their appointments to a relevant territorial office of the Migration Department."
+      },
+      "institution": {
+        "title": "Institution",
+        "explanation": {
+          "KL02_KI": "<b>Attention!</b> Present yourself personally at the Consular office on pre-booked time, bring your ID and originals of documents which were attached to your electronic application. Your application will be registered and processed only after you present yourself at the Consular office on the pre-booked time.<br/><br/><b>Please book a visit to the Foreign Ministry's visitors pre-registration system. <a href='https://keliauk.urm.lt/en/consult-registration' target='_blank'>Press here</a></b><br/><br/><b>Attention!</b> If your application is being pre-screened, you will only be able to make a reservation for the consular office of your choice once you have received confirmation via MIGRIS that you can register with the consular office to produce the original documents. You will find out whether your application is subject to a pre-screening by clicking on the \"Submit Application\" button.",
+          "KL02_KI-LR_PASAS_PE": "Your application will be submitted to the Lithuanian Embassy or Consulate.<br/><b>Attention!</b> Your application will be processed only after you arrive at the Lithuanian embassy or consulate.<br/><br/><b>When you receive a notification by e-mail</b> that your application has been submitted, book a visit to the Lithuanian embassy or consulate of your choice.<br/>In cases of extreme urgency or in the event of an accident, there is no need to register for the visit - after submitting an electronic application, be sure to contact the nearest or most conveniently accessible Lithuanian embassy or consulate and agree on the conditions for issuing a temporary passport.<br/>A temporary passport is issued no later than within 3 working days from the date of receipt of the application and necessary documents at the Lithuanian embassy or consulate.<br/>A temporary passport is valid from 1 to 12 months.<br/><br/><b>Please select the Lithuanian Embassy or Consulate you will visit to submit your application.</b>",
+          "KL02_KI-LAIKINAS_KELIONES_DOKUMENTAS": "Your application will be submitted to the Lithuanian Embassy or Consulate.<br/><b>Attention!</b> Your application will be processed only when you arrive at the Lithuanian Embassy or Consulate.<br/><b>Once you have received an email notification that</b> your application has been submitted, please schedule an appointment at the Lithuanian Embassy or Consulate.<br/>In case of extreme urgency or emergency, there is no need to schedule an appointment – please contact the nearest or most conveniently accessible Lithuanian Embassy or Consulate immediately after submitting your online application.<br/><br/><b>Please select the Lithuanian Embassy or Consulate you will visit to submit your application.</b>",
+          "KL02_IPT-SENGENO_VIZA": "",
+          "KL02_KI-SENGENO_VIZA": ""
+        }
+      },
+      "time": "Visit time",
+      "name": "Name (-s)",
+      "name.hint": "The data of the person in need of service must be entered",
+      "surname": "Surname (-s)",
+      "birthday": "Date of birth",
+      "document": "Person's document number",
+      "mediationLetterNo": "Mediation letter number",
+      "document.hint": "Enter number of the document (foreign passport, identity card) of the recipient of the service. If You do not have the document, please specify the reason.",
+      "document-upload.title": "Copy of the travel document sheet containing the personal data",
+      "phone": "Phone number",
+      "email": "E-mail",
+      "remarks": "Remarks",
+      "language": "Preferred service language",
+      "language.hint": "Choose the language you would like to communicate during your visit. We will provide the service in a foreign language as much as possible",
+      "button": {
+        "submit": "Book visit and submit application",
+        "reserve": "Reserve",
+        "changeTime": "Save changes",
+        "doNotChange": "Proceed without visit time change"
+      },
+      "timeEditLabel": "If You want to change visit place or time, select institution in the field below:",
+      "soonest-date": "Soonest possible visit date: ",
+      "no-empty-date": "There are no possible visit times in selected institution.<br/>Please, try different institution.",
+      "confirm-virtual": "Your application will be accepted without a visit to the Migration Department. You will be informed about the decision made through your MIGRIS account. The issued digital temporary residence permit will be sent to your MIGRIS account.",
+      "error": {
+        "personalCode": "The length of personal code in Lithuania must be 11 digits"
+      },
+      "docIssuePlaceEnum": {
+        "IPT_DEPARTMENT": "I will collect the produced document at the same division of the external service provider ({{iptDepartment}}) where I will submit the application",
+        "ORDER_DEPARTMENT": "I will collect the produced document at the same migration department ({{department}})",
+        "ANOTHER_DEPARTMENT": "I will collect the produced document at another migration office",
+        "COURIER": "The produced document will be delivered by a courier to the specified address",
+        "FOREIGN_COURIER": "I would like to receive the produced document by post/courier at the following address"
+      },
+      "docIssuePlace": {
+        "institution": {
+          "title": "Select the division where you will personally come to pick up the produced document."
+        },
+        "courier": {
+          "hint": "The service is paid. The courier is paid separately for the delivery of each personal document."
+        }
+      }
+    },
+    "summary": {
+      "visitTitle": {
+        "NEW": "Visit reservation",
+        "CONFIRMED": "Visit reservation confirmed",
+        "CANCELED": "Visit reservation canceled",
+        "ARRIVED": "Visit reservation completed",
+        "NOT_ARRIVED": "The visit is overdue"
+      },
+      "reject": {
+        "title": "Confirmation of visit cancellation",
+        "summary": "Are you sure you want to cancel your visit reservation?",
+        "confirm": "I want to cancel my visit reservation",
+        "cancel": "I do not want to cancel my visit reservation"
+      },
+      "approve": {
+        "title": "Visit confirmation",
+        "summary": "Are you sure you want to confirm your visit reservation?",
+        "confirm": "I want to confirm my visit reservation",
+        "cancel": "I do not want to confirm my visit reservation"
+      },
+      "formDataTitle": "Application submitted and reservation confirmed",
+      "formDataVirtualReceptionTitle": "Application submitted",
+      "visitReservationNotApproved": "Visit reservation not approved",
+      "visitReservationNotApprovedInfo": "You have not confirmed your visit and it will be automatically canceled within 1 hour from the beginning of the reservation.<br/>During this hour, you can still confirm your visit by the confirmation link received by mail.",
+      "visitTitleEmpty": "Visit reservation not found",
+      "submittedAppNo": "Application No.",
+      "reservationNumber": "Reservation No.",
+      "serviceTitle": "Visit type",
+      "institutionTitle": "Department",
+      "date": "Visit date",
+      "time": "Visit time",
+      "workplace": "Workplace",
+      "averageProcessingTerm": "The average time to process this request",
+      "averageProcessingTermType": "days",
+      "info": "Your visit reservation confirmation link is sent to your email <span class='email'>{{email}}</span>. You must confirm it in one hour. <br/><span class='warning'>Attention! Your visit reservation will only be successful when you confirm it by link in your email.</span>",
+      "status": "Reservation status",
+      "statusEnum": {
+        "NEW": "Not approved",
+        "CONFIRMED": "Confirmed",
+        "CANCELED": "Canceled",
+        "DELETED": "Expired",
+        "ARRIVED": "Arrived",
+        "NOT_ARRIVED": "Not arrived"
+      }
+    },
+    "otherPersonCollecting": {
+      "juridicalTitle": "Juridical person title",
+      "name": "Recipient name (-s)",
+      "surname": "Recipient surname (-s)",
+      "birthday": "Recipient date of birth",
+      "select": "Identity document will be picked up by",
+      "hint": {
+        "juridicalTitle": "Represented juridical person title",
+        "name": "Name (-s) of the person collecting the document",
+        "surname": "Surname (-s) of the person collecting the document",
+        "birthday": "Date of birth of the person collecting the document"
+      },
+      "enum": {
+        "PERSONALLY": "Personally",
+        "LEGAL_PERSON": "Other natural person",
+        "JURIDICAL_PERSON": "Juridical person"
+      }
+    }
+  },
+  "address": {
+    "country": "Country",
+    "municipality": "Municipality",
+    "city": "Area (city, village, ...)",
+    "street": "Street",
+    "building": "Building",
+    "apartment": "Apartment",
+    "fullAddress": "Adresas",
+    "postcode": "Postcode",
+    "wrongPostcodeFormat": "Postcode must be 5 digits long"
+  },
+  "payment": {
+    "status": {
+      "1": "Your payment has been successfully completed",
+      "2": "Your payment was unsuccessful"
+    },
+    "viispPaymentStatus": "Payment status",
+    "paymentStatusEnum": {
+      "UNPAID": "Unpaid",
+      "PAID": "Paid",
+      "PARTIALLY_PAID": "Partially paid",
+      "EXEMPT": "Released from payment"
+    },
+    "paymentInput": "Enter the amount of the service charge",
+    "paymentsLink": {
+      "TARPININKAVIMO_RASTAS_PT": "<a href='https://migracija.lrv.lt/lt/paslaugos/valstybes-rinkliavu-sarasas/pasas-atk-tarnybinis-pasas/' target='_blank'>State fees can be found here</a>",
+      "default": "<a href='https://migracija.lrv.lt/lt/paslaugos' target='_blank'>State fees can be found here</a>"
+    },
+    "estimatedAmount": "Amount to be paid (Eur)",
+    "paidAmount": "Amount paid",
+    "payViisp": "Pay via VIISP",
+    "uploadedFile": "Upload a copy of your payment receipt",
+    "paymentDescription": "Purpose of payment",
+    "paymentsLinkLabel": "Payment information",
+    "paymentTypes": "Payment type",
+    "paymentType": {
+      "VIISP": "Pay via VIISP",
+      "BANK_TRANSFER": "Paid by bank transfer"
+    },
+    "paymentTypeButton": {
+      "VIISP": "Pay via VIISP",
+      "BANK_TRANSFER": "Next"
+    }
+  },
+  "application": {
+    "list": "Applications",
+    "list.search": "Applications search",
+    "new": "New application",
+    "edit": "Edit application",
+    "view": "Application preview",
+    "toPrintView": "Print preview",
+    "id": "ID",
+    "submittedAppNo": "Application submit. No.",
+    "registeredAppNo": "Application reg. No.",
+    "title": "Title",
+    "description": "Description",
+    "created": "Application reg. date",
+    "caseNo": "Case No.",
+    "type": "Application type",
+    "appTypeTitle": "Application type",
+    "applicantName": "Name",
+    "applicantSurname": "Surname",
+    "applicantBirthDate": "Date of birth",
+    "responsiveDepartment": "Responsible department",
+    "responsiveEmployee": "Responsible person",
+    "state": "Status",
+    "btnIdentifyPerson": "Identify person",
+    "btnCase": "Case",
+    "btnVisit": "Visit",
+    "btnAppHistory": "Application history",
+    "btnAppChangeState": "Temporary \"Status change\"",
+    "btnSubmit": "Continue",
+    "btnSave": "Save",
+    "btnConfirm": "Submit application",
+    "confirm": "Do you really want to submit application?",
+    "confirm-schengen": "The data of the application will be transferred to the selected Embassy/ Consulate or Visa Center. </br></br>Please note that you shall print the application you have submitted, affix your photo where indicated, sign the application and submit it personally to the Embassy/Consulate or visa center of the Republic of Lithuania you chose when filling in the application. </br></br>Do you want to submit application?",
+    "btnSaveCreated": "Save and continue",
+    "btnSaveCreatedConfirm": "Do you really want to save?",
+    "btnAssignAppEmploy": "Assign",
+    "formLoadError": "Error in form",
+    "types": {
+      "LLG": "Temporary residence permit"
+    },
+    "registered": "Admission date",
+    "summary": {
+      "APP_REGISTERED": "Application accepted",
+      "APP_EARLY_PREVIEW": "Application submitted for preliminary assessment",
+      "submitted": "Application submitted",
+      "submittedAppNo": "Application No.",
+      "info": {
+        "mdApplicationApproveRequired": "<p>We inform, that the Migration Department will perform a preliminary review of your application. The preview will take no longer than 1 month.</p><p>After the Migration Department has performed a preliminary review and has not identified any deficiencies in your application and the documents attached to it, to your MIGRIS account will be sent a confirmation that you can register to the Consular office for the submission of the original documents. You can register at the Consular office by clicking <a href='https://keliauk.urm.lt/en/consult-registration' target='_blank'>here</a></p><p>After the Migration Department has performed a preliminary review and determined that in you application or the documents attached to it are deficiencies, to your MIGRIS account will be sent a message stating which deficiencies you must rectify in the application or the documents attached to it. If the deficiencies will be remedied within 1 month, you will be sent a confirmation that you can register to the Consular office for the submission of the original documents. If the deficiencies specified in the notification will not be remedied within 1 month – your application will be rejected.</p><p>Attention! You will be able to submit the original documents to the Consular office only if you have a confirmation from the Migration Department that your application has been checked and no deficiencies has been identified. Without this confirmation, you will not be served at he Consular office.</p>",
+        "E_REZIDENTAS_01": "Your application will be accepted after you visit an external service provider. Information how to book a visit to an external service provider can be found <a href='https://www.migracija.lt/en/contacts' target='_blank'>here</a>.",
+        "NELEGALI_MIGRACIJA_01": "Your application has been accepted. Please arrive at the office that issued the decision to leave or return after 2 business days or later.",
+        "GR_IPT_": "<b>Attention!</b> Your application has been submitted for preliminary assessment. Visit the branch of your chosen external service provider so that only when you receive the MIGRIS notification for pre-review (the status of the application will change to \"Submitted to external service provider\"",
+        "applicationInforming": "Your application will be accepted without a visit to the Migration Department. You will be informed about the decision made through your MIGRIS account. The issued digital temporary residence permit will be sent to your MIGRIS account."
+      }
+    },
+    "steps": {
+      "application": "Application filling",
+      "visit": "Visit information",
+      "fee": "State fee",
+      "summary": {
+        "default": "Successfully submitted",
+        "paid": "Successfully submitted and paid"
+      },
+      "otherInformation1": "Other information No. 1",
+      "otherInformation2": "Other information No. 2",
+      "otherInformation3": "Other information No. 3",
+      "otherInformation4": "Other information No. 4",
+      "otherInformation5": "Other information No. 5"
+    },
+    "editWarning": "Gray and inactive data cannot be edited. You must cancel your current request and resubmit in order to change this information.",
+    "deleteNotice": "Important! Please note that applications that have been started to fill but not yet submitted will be automatically deleted from the system after 6 months",
+    "states": {
+      "APP_FILLING": "Application is being completed",
+      "APP_EARLY_PREVIEW": "Preliminary assessment",
+      "APP_CREATED_FOR_IPT": "Submitted to external service provider",
+      "APP_CREATED_FOR_URM": "Application submitted",
+      "APP_CREATED": "Application submitted",
+      "APP_CANCELED": "Request canceled",
+      "APP_REGISTERED": "Application accepted",
+      "APP_NOT_REGISTERED": "The request was not accepted",
+      "APP_ANALYZED": "Decision made",
+      "APP_SPECIFY": "Application submitted"
+    }
+  },
+  "other-information": {
+    "list": "Other information forms",
+    "formTitle": "Title",
+    "submissionNo": "No.",
+    "confirm": "Do you really want to submit form?"
+  },
+  "conversation": {
+    "newMessage": {
+      "topic": {
+        "TERMINATE_PROCESS": "Process termination",
+        "LOST_DOCUMENT": "Notify about lost document"
+      },
+      "placeHolder": {
+        "TERMINATE_PROCESS": "I, {{name}} {{surname}} {{companyName}} wish to terminate the application process, because:",
+        "LOST_DOCUMENT": "I, {{name}} {{surname}} want to report about lost document ({{dokPav}} - {{dokNum}}):"
+      },
+      "toolTips": {
+        "TERMINATE_PROCESS": "State the reasons why you wish to terminate the process",
+        "LOST_DOCUMENT": "Indicate where and under what circumstances you lost the document"
+      },
+      "label": {
+        "common": "New response",
+        "TERMINATE_PROCESS": "Reasons",
+        "LOST_DOCUMENT": "Circumstances"
+      }
+    },
+    "message": "Conversations",
+    "topic": "Topic",
+    "created": "Created",
+    "sent": "Sent",
+    "received": "Received",
+    "submittedAppNo": "Application No.",
+    "seen": "Seen",
+    "file-upload": "Additional documents",
+    "user-migris": "MIGRIS",
+    "status": "Status",
+    "status-enum": {
+      "UNLOCKED": "Conversation active",
+      "LOCKED_FOR_EXTERNAL": "Conversation inactive",
+      "LOCKED": "Conversation inactive"
+    },
+    "subStatus-enum": {
+      "WAITING_FOR_RESPONSE": "Waiting for your response",
+      "RESPONDED": "Message sent",
+      "REQUESTED": "Message sent"
+    },
+    "newMessageCount": "New messages: {{count}}",
+    "hideLocked": "Hide not actual conversations",
+    "showOtherCompanyMessages": "Show all company messages",
+    "viewADOC": "Preview ADOC",
+    "downloadADOC": "Download ADOC",
+    "downloadADOCPrintout": "Download transcript",
+    "otherInformation": {
+      "title": "Additional information",
+      "preview": "Preview",
+      "edit": "Edit"
+    }
+  },
+  "profile": {
+    "applicationNo": "Application No.",
+    "visit": {
+      "list": "Visits",
+      "search": "Visits search",
+      "changeTime": "Change visit location / time",
+      "cancel": {
+        "btn": "Cancel visit",
+        "title": "Attention! Visit reservation is related to the application submission. If You cancel Your visit, Your application will be canceled too. In order to receive the service You will need to resubmit Your application and make another visit reservation.<br/><br/>Attention! If You don’t arrive on your appointed time twice in one month, You will be suspended from making reservations, and You will be able to book another visit only 30 days later."
+      }
+    },
+    "visitType": "Visit type",
+    "institution": "Institution",
+    "visitDate": "Visit date",
+    "visitDateFrom": "Visit date from",
+    "visitDateTo": "Visit date to",
+    "visitTime": "Visit time",
+    "visitDateTime": "Visit date and time",
+    "onlyValidVisits": "Show only relevant visits",
+    "state": "Application status",
+    "stateReason": "Reason",
+    "appTitle": "Application title",
+    "printReadyDoc": "Documents for printing",
+    "visitNo": "Reservation No.",
+    "onlyVisit.cancel": {
+      "title": "Attention! If You will not arrive to Your visit twice a month, Your reservation will be suspended and You will be able to book another visit only 30 days later.",
+      "vfs-message": "Visits at External Service Provider can be cancelled through VFS Global's visit reservation system <a href='https://www.vfsglobal.com/' target='_blank'>www.vfsglobal.com</a>"
+    },
+    "formData": {
+      "title": "Application data",
+      "cancel": {
+        "btn": "Cancel application",
+        "title": "Attention! The application is related to a visit reservation. If You cancel the application, Your visit reservation will be canceled. In order to receive the service You will need to resubmit Your application and make another visit reservation.<br/><br/>Attention! If You will not arrive to Your visit twice a month, Your reservation will be suspended and You will be able to book another visit only 30 days later.",
+        "titleWithoutVisit": "Are you sure, you want to cancel your application? In order to receive the service You will need to resubmit Your application.",
+        "process": {
+          "btn": "Terminate this process",
+          "birthDayUnknown": "not provided"
+        }
+      },
+      "copy": {
+        "btn": "Create on the basis of this application",
+        "title": "Do you really want to create new application on the basis of this application?"
+      },
+      "delete": {
+        "btn": "Delete application",
+        "title": "Do you really want to delete application?"
+      },
+      "conversations": {
+        "btn": "Conversations"
+      }
+    },
+    "submittedBy": "Submitted by",
+    "name": "Name",
+    "surname": "Surname",
+    "iltuCode": "ILTU code",
+    "birthDate": "Date of birth",
+    "documentNo": "Person document number",
+    "phone": "Phone number",
+    "email": "E-mail",
+    "emailNew": "New E-mail",
+    "language": "Language of service",
+    "remarks": "Remarks",
+    "personalDataTitle": "Personal data",
+    "companyDataTitle": "Company data",
+    "companyName": "Company",
+    "companyCode": "Registration code",
+    "contactInfoTitle": "Personal and contact information",
+    "menuItemProfile": "My personal info",
+    "menuItemVisits": "My visits",
+    "menuItemApplications": "My applications",
+    "menuItemValidDocs": "My documents",
+    "menuItemIssuingDocs": "Issuing documents",
+    "menuItemConversations": "My conversations",
+    "menuItemOtherServices": "Other Services",
+    "menuItemBorderRecords": "My border crossings",
+    "menuItemVisas": "My visas",
+    "menuItemChangeDelegation": "Switch account",
+    "appPerson": "Person of application ",
+    "sendEmailVerificationCode": "Send the verification code",
+    "editAccountDataTitle": "Edit my personal information",
+    "editAccountDataFirstTimeTitle": "Enter your`s contact information",
+    "editAccountDataConfirmMsg": "Do you really want to save data?",
+    "button": {
+      "newApplication": "New application",
+      "newMediationLetter": "New mediation letter"
+    },
+    "agreements": {
+      "informAboutDocExpiration": "I agree to be informed by e-mail / systematic message about the impending expiry of the documents"
+    },
+    "mediationLetters": "Mediation letters",
+    "mediationLetterNo": "Mediation letter number",
+    "inviteeName": "Invitee name",
+    "inviteeSurname": "Invitee surname",
+    "inviteeDateOfBirth": "Invitee date of birth",
+    "mediationLetterUse": "Mediation letter relevance",
+    "mediationLetterState": "Mediation letter state",
+    "mediationLetterUseEnum": {
+      "USED": "Used",
+      "UNUSED": "Unused"
+    },
+    "mediationLetter": {
+      "cancel": {
+        "btn": "Cancel mediation letter",
+        "confirm": "Do you want to cancel mediation letter?",
+        "confirm_fee": "Do you want to cancel the mediation letter? The paid state fee will not be refunded."
+      },
+      "copy": {
+        "btn": "Create on the basis of this mediation letter",
+        "title": "Do you really want to create new mediation letter on the basis of this mediation letter?"
+      },
+      "delete": {
+        "btn": "Delete mediation letter",
+        "confirm": "Do you want to delete mediation letter?"
+      },
+      "invitation": "Print invitation"
+    }
+  },
+  "quotas": {
+    "header": "Quotas",
+    "sector": "Economic activity types",
+    "value": "Quota",
+    "year": "Year for quota",
+    "used": "Depleted",
+    "usedWhen": "Date of quota depletion",
+    "remaining": "Remaining",
+    "total": "Total:",
+    "commonQuotaLabel": "Quota for {{date}}",
+    "profession": {
+      "code": "Profession code",
+      "title": "Name"
+    }
+  },
+  "login": {
+    "button": {
+      "next": "Next"
+    },
+    "field": {
+      "temp-code": "Temporary code",
+      "temp-password": "Temporary password",
+      "password": "Password",
+      "confirmation-code": "Confirmation code"
+    },
+    "title": "Login",
+    "loginAsWho": "I wish to login as:",
+    "delegatedPerson": "delegated person",
+    "activated-lvl2": "The security level of the identified user has been activated for You",
+    "need-security-config": "In the next steps You need to configure the following security features:",
+    "step-header": "Your email:",
+    "step-subheader": "Attention! Please use the same email to sign in.",
+    "step-label": {
+      "home": "Start of login",
+      "contacts": "Contact information",
+      "new-password": "New password",
+      "second-factor": "Additional security feature",
+      "confirm-second-factor": "Confirmation of additional security feature",
+      "user-data": "Contact details",
+      "nextStepsInfo": "About security feature",
+      "confirmation-code": "Confirmation code",
+      "level1": "Confirm temporary code",
+      "level2": {
+        "first-login": "Confirm temporary password",
+        "password": "Password",
+        "confirmation-code": "Confirmation code",
+        "lost": {
+          "PASSWORD": "Extra confirmation",
+          "2FACTOR": "Extra confirmation"
+        }
+      },
+      "last": "Signed in successfully"
+    },
+    "step-info": {
+      "level1": "To continue signing in, enter the temporary sign in code received by email",
+      "level2": {
+        "first-login": "To continue signing in, enter the temporary password received by email",
+        "password": "To continue signing in, enter Your permanent password (temporary password will not be sent in this step)",
+        "EMAIL": "Please enter confirmation code received by email",
+        "TOTP": "Please enter code generated by mobile app",
+        "SMS": "Please enter code received in phone message",
+        "lost": {
+          "PASSWORD": "To continue, enter the temporary password received by email. Your old password validity will be terminated.",
+          "2FACTOR": "To continue, enter the temporary password received by email. Your old confirmation code generator will be terminated."
+        }
+      },
+      "user-info": "Please provide your full name according to your passport as this information will be transferred to your application form.",
+      "userTypingInfo": "Fill in your data according to the Latin entries in your passport. As it concerns Latin characters with diacritics,<br /> you may write only those that are in Lithuanian alphabet: ą, ę, į, ų, ū, ė, č, š, ž. You can also use the „.“, „’“ and „( )“characters.<br /> If your name contains more than one name and is more than 60 characters in length,<br /> enter only those names which fit in fully.",
+      "user-data": "Fill in your contact information",
+      "second-factor": "Please choose how You want to get the additional security code:"
+    },
+    "new-password": {
+      "create": "Create a new password",
+      "pattern-description": "The password must contain at least 8 characters, including at least one number, a capital letter and a lowercase letter"
+    },
+    "security-option": {
+      "1": "Create a new password",
+      "2": "Choose and configure a method for receipt of additional security code:",
+      "email": "Sending a variable code to Your specified email",
+      "smartphone": "Generating a variable code using third-party applications on your smartphone",
+      "sms": "Sending a variable code by message to Your specified mobile phone number"
+    },
+    "second-factor-type": {
+      "EMAIL": "Sending a variable code to Your specified email",
+      "TOTP": "Generating a variable code using third-party applications on your smartphone",
+      "SMS": "Sending a variable code by message to Your specified mobile phone number"
+    },
+    "second-factor-description": {
+      "EMAIL": "Each time You log on to the System, You will need to enter a variable code that will be automatically generated and sent to Your email.",
+      "SMS": "Each time You log on to the System, You will need to enter a variable code that will be automatically generated and sent by mobile phone message.",
+      "TOTP": {
+        "1": "You need to download and install a free verification app on Your mobile phone, for example Google authenticator<br/> Click the link to download the applications:",
+        "2": "<b>Read more about verification app: <a href='https://www.google.com/landing/2step/', target='_blank'>https://www.google.com/landing/2step/</a></b>",
+        "3": "When You scan Your QR code or enter code manually, the mobile app will generate new login codes that You can only log in to Your account.<br/>You will need to enter the code displayed on the mobile phone screen at each login."
+      },
+      "qr-title": "Use the app to scan this QR code:",
+      "secret-title": "If You are unable to scan the QR code, You can enter the code manually in the app:"
+    },
+    "account-info": {
+      "fill-user-data": "Fill in your contact information",
+      "confirm-email": "To confirm Your email, please enter temporary code received by email"
+    },
+    "level1Msg": "Please use this login type if you do not have personal identification number in Lithuania",
+    "level3Msg": "Please use this login type if you already have personal identification number in Lithuania",
+    "username": "E-mail",
+    "password": "Password",
+    "errNameLength": "Minimum field length is 5 symbols",
+    "errPswLength": "Minimum password length is 8 symbols",
+    "errPswRequired": "Password is required",
+    "errEmail": "Invalid email format",
+    "errPswMustMatch": "Passwords do not match",
+    "errPswMustNotMatch": "New password must be different from old password",
+    "errPswPattern": "The password must contain at least one number and at least one uppercase and lowercase letters",
+    "contactInfo": "Your contact information",
+    "enterCode": "Enter code received by email",
+    "enterCode2": "Please enter code",
+    "oldPass": "Please enter Your current password",
+    "newPass": "Please enter new password",
+    "repeatNewPass": "Please re-enter Your new password",
+    "errLoginCode": "Invalid login code format",
+    "enterMainUserAccountData": "Please enter main account information",
+    "sessionTimeOutSnackBarText": "Your session has expired. Please login again.",
+    "redirectingToViisp": "Redirecting to The State Information Resources Interoperability Platform...",
+    "viispTitle": "The State Information Resources Interoperability Platform",
+    "changePasswordTOTP": "Change Password",
+    "enterCodeTOTP": "Enter temporal code (TOTP)",
+    "message": {
+      "successful": "Welcome!"
+    },
+    "lost": {
+      "password": "I forgot my password",
+      "TOTP": "I don't have access to my authentication tool",
+      "SMS": "I don't have access to my mobile phone"
+    }
+  },
+  "httpError": {
+    "ASSIGN_UNIT_INVALID_APP_STATE": "The examining unit can only be assigned to requests with status „Request submitted“",
+    "ERR_ACCOUNT_NOT_ACTIVE": "Account is not active. Login with active one \"{{0}}\"",
+    "ERR_ACCOUNT_EMAIL_ALREADY_USED": "Defined e-mail is / was used by another account",
+    "ERR_ACCOUNT_SECURITY_CODE_NOT_MATCH": "Incorrect confirmation code",
+    "LOGIN_MULTI_FACTOR": "Please login with Your email address and password",
+    "LOGIN_MULTI_FACTOR_DETAILED": "Email that You are using to sign in has been used by Your or other account and is no longer valid. Please use Your active email to access Your account - \"{{0}}\"",
+    "LOGIN_ONE_TIME_PASS": "Please login with Your email address",
+    "LOGIN_ONE_TIME_PASS_DETAILED": "Email that You are using to sign in has been used by Your or other account and is no longer valid. Please use Your active email to access Your account - \"{{0}}\"",
+    "LOGIN_VIISP": "Please login via SIRIP",
+    "LOGIN_VIISP_DETAILED": "Please login via SIRIP",
+    "ERR_ACCOUNT_CAN_NOT_CHANGE_VIISP_ACCOUNT": "You do not have permission to sign in to this account ",
+    "Bad credentials": "Incorrect username or temporary verification code",
+    "VIISP_AUTH_ERROR": "SIRIP authentication error",
+    "Can't generate viisp ticket": "SIRIP identifier creation error",
+    "ERR_EMAIL_EMPTY": "No email address entered",
+    "ERR_NAME_OR_SURNAME_EMPTY": "No name/surname entered",
+    "ERR_VISIT_FOR_PERSON_ALREADY_RESERVED": "You already have reservation for the selected visit type",
+    "ERR_VISIT_MISSED_2_TIMES_IN_A_ROW": "You have missed two reservations in a row - next reservation is allowed after one month",
+    "ERR_VISIT_CANCELED_2_TIMES_IN_A_ROW": "You have canceled two reservations in a row - next reservation is allowed after one month",
+    "ERR_BAD_EXTRA_INSTITUTION_CONFIGURATION": "Unsupported institution for this type application",
+    "ERR_TICKETS_LIST_AT_SELECTED_TIME_IS_EMPTY": "Visit time is already reserved - select different visit time and / or date",
+    "ERR_CREDENTIALS_EXPIRED": "Credentials expired",
+    "ERR_CAN_NOT_GENERATE_AUTHENTICATION_TOKEN": "Authentication error",
+    "ERR_BAD_CREDENTIALS": "Incorrect username or password",
+    "MAX_ALLOWED_DRAFT_COUNT_EXCEEDED": "Exceeded maximum allowed number of not submitted applications. Please submit or delete your drafts",
+    "ONLY_PHYSICAL_SUBMITTER": "This application for Natural persons only. Please login as Natural person",
+    "ONLY_FOREIGNER": "This application can only be submitted by foreigners",
+    "NOT_ALLOWED_TO_CREATE_THIS_TYPE_FORM": "User does not have permission to create this type application",
+    "ERR_EXISTING_DOCUMENT_MISMATCH": "The number of the document to be changed is incorrect",
+    "ERR_DOCUMENT_IS_NOT_LOST": "You will be able to submit a request only when you report that the document is lost in your personal MIGRIS account",
+    "ERR_APP_REJECTED_TOO_MUCH_TIMES": "You cannot apply on behalf of this person, as applications submitted in the last 6 months have been rejected 2 times",
+    "ERR_SELECTED_IPT_NOT_ALLOWED": "You cannot apply this type of application to the selected external services provider",
+    "ERR_PERSON_CONTACTS_REQUIRED": "For adults, contact details are mandatory",
+    "ERR_NOT_FILLED_OTHER_INFORMATION_FORMS": "Not filled related other information forms",
+    "ONLY_JURIDICAL_SUBMITTER": "This application for Legal entities only. Please login as Legal entity",
+    "ONLY_GOVERNMENT_SUBMITTER": "This application for State authorities only. Please login as State authority",
+    "ONLY_IDENTIFIED_USER": "This application for identified users only. Please use different login type",
+    "ERR_FORM_TEMPLATE_DOES_NOT_EXISTS_OR_NOT_VALID": "Form template does not exist, or is not valid",
+    "METHOD_ARGUMENT_NOT_VALID": "Invalid data entered",
+    "ILLEGAL_ARGUMENT": "Illegal argument",
+    "PAYMENT_ERROR": "Payment error",
+    "INTERNAL_SERVER_ERROR": "Server error",
+    "APPLICATION_VERSION_DO_NOT_MATCH": "Application details have been changed while You were editing the application, therefore Your changes cannot be saved. Check if the application is not opened in other browsers or tabs. You can continue editing application by refreshing browser",
+    "APPLICATION_CANCEL_UNAVAILABLE": "Application cancel unavailable",
+    "APPLICATION_NOT_FOUND": "Application not found because does not exist or has been deleted",
+    "NON_EDITABLE_FIELDS_CHANGED": "Non editable fields changed",
+    "NAME_SURNAME_CHANGED": "Name or surname in the application does not match account information",
+    "CANNOT_MODIFY_APP_BEFORE_VISIT": "Application is not editable",
+    "CONVERSATION_LOCKED": "This conversation has been locked and you can no longer reply to it.",
+    "ERR_NECIS_EXAM_ALREADY_BOOKED": "A person is already registered for this exam",
+    "VIISP_REQUIRED": "Please login via SIRIP to perform this action",
+    "MQ_CONNECTION_ERROR": "Connection error. Try again later",
+    "ERR_ML_CAN_EDIT_ONLY_DRAFT": "Do not edit the submitted mediation letter",
+    "ERR_ML_ALREADY_USED": "Mediation letter can't be canceled because it is already used",
+    "ERR_ML_JURIDICAL_NO_CASE": "Inviter does not have personal case",
+    "ERR_ML_JURIDICAL_FORBIDDEN_TO_SUBMIT": "You cannot submit letters of mediation",
+    "ERR_ML_INVITER_NOT_FOUND": "Inviter not found",
+    "ERR_ML_INVITER_MANAGER_NOT_FOUND": "Inviter manager not found",
+    "ERR_ML_AUTH_PERSON_NO_VALID_LT_ADDRESS_OR_NO_VALID_DOCUMENT": "A mediation letter will not be accepted if the authorized person of a legal entity has not declared residence in Lithuania and (or) does not have a valid identity document (identity card, passport, passport of a citizen of the Republic of Lithuania, travel document or document granting or confirming temporary or permanent residence In Lithuania). If you have any questions, please contact the Migration Department.",
+    "ERR_ML_NO_EU_NATIONALITY": "Inviter must be an EU national",
+    "ERR_ML_NO_VALID_LT_ADDRESS": "Inviter must have a valid Lithuanian address",
+    "ERR_ML_NOT_FOUND": "Mediation letter with the specified number was not found",
+    "ERR_ML_NOT_USABLE": "Mediation letter cannot be used because it has been revoked, already used, no longer valid, or is unpaid",
+    "ERR_ML_THIRD_COUNTRY_NO_VALID_LT_ADDRESS_OR_NO_VALID_DOCUMENT": "A mediation letter will not be accepted if the inviter has not declared a place of residence in the Republic of Lithuania and / or does not have a valid long-term resident's residence permit in the European Union (permanent residence permit) or a valid Union citizen's family member's temporary or permanent residence card. If you have any questions, please contact the Migration Department.",
+    "ERR_ML_ES_ELPA_SCHENGEN_NO_VALID_LT_ADDRESS_OR_NO_VALID_DOCUMENT": "A mediation letter will not be accepted if the inviter has not declared a place of residence in the Republic of Lithuania and / or does not have a valid travel document (identity card or passport) or a valid certificate of the right to reside temporarily or permanently in the Republic of Lithuania. If you have any questions, please contact the Migration Department.",
+    "ERR_ML_LR_VALID_LT_ADDRESS_OR_NO_VALID_DOCUMENT": "A mediation letter will not be accepted if the inviter has not declared a place of residence in the Republic of Lithuania and / or does not have a valid identity card or passport. If you have any questions, please contact the Migration Department.",
+    "ERR_ML_INVITER_MANAGER_WITHOUT_PERSONAL_CODE": "A mediation letter will not be accepted if the head of the legal person has not declared residence in the Republic of Lithuania and / or does not have a valid identity document (identity card, passport, passport of a citizen of the Republic of Lithuania, travel document or document granting or confirming temporary or permanent residence in the Republic of Lithuania)",
+    "ERR_ML_MANAGER_NO_VALID_LT_ADDRESS": "The head of the inviter must have declared a place of residence in the Republic of Lithuania",
+    "ERR_ML_MANAGER_NO_EU_NATIONALITY": "The caller must be an EU citizen",
+    "ERR_ML_MANAGER_NO_VALID_DOCUMENT": "The caller's manager does not have a valid identity document",
+    "ERR_ML_INVITEE_HAS_VALID_ML": "A mediation letter has already been submitted to this invited person and has not been used. In order to submit a new mediation letter to this person, you must cancel the previously submitted mediation letter",
+    "ERR_ML_DATA_MISMATCH": "The provided data does not match the data provided in the mediation letter",
+    "ERR_ML_INVITEE_DATA_MISMATCH": "The requested person's data provided does not match the data in the personal data.",
+    "ERR_ML_FORM_TEMPLATE_CONTAINS_NO_TYPE": "The application does not have a mediation letter type, please contact the Migration Department",
+    "ERR_ML_EXPIRED": "A mediation letter has expired",
+    "ERR_ACTIVATE_CERTIFICATES": "Certificates activation failed",
+    "ERR_ACTIVATE_CERTIFICATES_NOT_ALLOWED": "Certificate for e. resident authentication in an online environment and of qualified certificate for electronic signature can be activated only upon receipt of a notification from the Migration Department.",
+    "ERR_DOCUMENT_NOT_PRODUCED": "Action unsuccessful, the document is not produced",
+    "ERR_NOT_AUTHORIZED_TO_MARK_DOC_ISSUED": "You are not authorized to mark this document as received",
+    "ERR_NOT_EQUAL_TO_MARK_DOC_ISSUED": "Error, this document cannot be marked as received",
+    "ERR_TICKET_NOT_FOUND": "This department is no longer accepting new applications. Select another department or method of receiving the request.",
+    "ERR_INVALID_CONFIRMATION_CODE": "Invalid confirmation code.",
+    "ERR_PERSONAL_DATA_MISMATCH": "The personal data does not match the person found according to the personal code",
+    "ERR_LITHUANIAN_NATIONALITY_NOT_FOUND": "No valid Lithuanian citizenship found",
+    "ERR_PERSON_AGE_AT_LEAST_2_YEARS": "A person under 2 years of age",
+    "ERR_PERSONS_FIRST_IDENTITY_DOCUMENT": "The first identity document cannot be ordered",
+    "ERR_LAST_BIOMETRICS_OLDER_THAN_6_MONTHS": "Latest biometrics older than 6 months",
+    "ERR_APPLICATION_ALREADY_SUBMITTED": "You already have submitted same type application",
+    "ERR_CREATE_BORDER_RECORD_NOT_ALLOWED": "Citizens of the Republic of Lithuania are not allowed to enter border crossings",
+    "ERR_CREATE_BORDER_RECORD_NOT_ALLOWED_DUE_TO_BAD_DATE": "Border crossing entries are not allowed due to invalid date",
+    "ERR_DOCUMENT_MISMATCH_OR_NOT_VALID": "The document is not valid or incorrect personal document data is provided.",
+    "WARN_ACTION_WILL_BE_REPEATED": "Action has been logged",
+    "undefined": "Action unsuccessful",
+    "Access is denied": "Access is denied"
+  },
+  "file.upload.error": {
+    "UNDEFINED": "Error while loading file",
+    "TOO_BIG": "File too big - max possible file size: 10mb",
+    "UNSUPPORTED_FORMAT": "Unsupported file format. Supported file formats: {{formats}}",
+    "TOO_MANY": "Files were not uploaded, upload limit exceeded"
+  },
+  "validation": {
+    "wrongEmailFormat": "Invalid email format",
+    "wrongPhoneFormat": "Invalid number format. Example +37000000000",
+    "upperLettersWithSpaceOnly": "Characters and symbols „.“, „’“, „-“, „( )\" and space „ “ are allowed",
+    "incorrectAutocompleteInput": "Select an option from a dropdown",
+    "wrongDigitsFormat": "Only digits are allowed",
+    "wrongCurrencyFormat": "Incorrect amount format. E.g. 99,45 or 99.45"
+  },
+  "nvis": {
+    "list": "My visas",
+    "type": "Visa type",
+    "visaStickerNr": "Visa number",
+    "visaValidUntil": "Valid until",
+    "issuanceDate": "Visa issuance data"
+  },
+  "necis": {
+    "list": "Exams",
+    "examCode": "Code",
+    "examName": "Title",
+    "examPrice": "Price Eur",
+    "centerCode": "Center code",
+    "centerName": "Center name",
+    "centerAddress": "Center address",
+    "centerEmail": "Center email",
+    "centerPhone": "Center phone",
+    "examDate": "Exam date",
+    "examTime": "Exam time",
+    "personCode": "Person code",
+    "personName": "Name",
+    "personSurname": "Surname",
+    "payment": "Payment",
+    "state": "State",
+    "states": {
+      "RESERVED": "Reserved",
+      "PAID": "Paid",
+      "PAYMENT_FAILURE": "Payment information was not transferred to NEC",
+      "CANCELED": "Canceled"
+    },
+    "bookExam": "Book",
+    "examList": "Exams",
+    "centerList": "Centers",
+    "newExam": "Book exam",
+    "upload": "Attach a document supporting Lithuanian language exam",
+    "reject": "Cancel exam",
+    "pay": "Pay",
+    "paidTime": "Payment date",
+    "changeReservation": "Change exam date, time",
+    "reject.title": "Do you really wish the revocation of the time of reservation?<br/> In the event of revocation of the reservation the payment made will not be returned.",
+    "book": {
+      "soonest-date": "Soonest possible exam date: ",
+      "no-empty-date": "There is no possible exam in selected center.<br/>Please, try different exam center."
+    },
+    "error": {
+      "exam": "Unable to receive exams list",
+      "center": "Unable to receive exam centers list",
+      "date": "Unable to receive exam dates list",
+      "time": "Unable to receive exam times list",
+      "bookExam": "Unable to book exam",
+      "rejectExm": "Unable to cancel exam"
+    },
+    "action": "Status",
+    "bookNewExam": "Book new exam / change exam time",
+    "infoText": "Please note that the exam fee must be paid in MIGRIS until {{operation_time}}. Only after successful payment until the specified time your registration will be confirmed. Failure to pay the exam fee will result in you not being placed on the list of those taking the exam."
+  },
+  "mediation": {
+    "header": "Mediation letters",
+    "list": {
+      "search": "Mediation letter search",
+      "mediationLetterNo": "Mediation letter number",
+      "inviteeName": "Invitee name",
+      "inviteeSurname": "Invitee surname",
+      "inviteeDateOfBirth": "Invitee date of birth",
+      "inviteeGender": "Invitee gender",
+      "inviteeNationalities": "Invitee nationalities",
+      "state": "State",
+      "type": "Type",
+      "lastPaidAmount": "Payment amount €",
+      "lastPaidDate": "Payment date",
+      "lastDecisionTitle": "Decision",
+      "documentType": "Personal document type",
+      "asmensDokumentaiBusena": "Is valid",
+      "documentIssueDate": "Personal document issue date",
+      "lytisEnum": {
+        "V": "Male",
+        "M": "Female"
+      }
+    },
+    "unpaid-tooltip": "Only after paying the state fee, the mediation letter will become valid!",
+    "summary": {
+      "mediationLetterNo": {
+        "default": "Mediation letter number"
+      },
+      "type": "Type",
+      "submitted": {
+        "default": "Mediation letter submitted"
+      },
+      "paid": {
+        "default": "Payment for mediation letter",
+        "TARPININKAVIMO_RASTAS_PT": "Payment for issuance/replacement of a service passport"
+      },
+
+      "info": {
+        "TARPININKAVIMO_RASTAS_PT": "<b>Attention!</b> You must provide the mediation letter number to the person for whom you have submitted the mediation letter for the issuance/replacement of a service passport. After receiving the mediation letter number, the person will need to book an appointment at <a href='https://migracija.lt' target='_blank'>www.migracija.lt</a> to order a service passport."
+      }
+    },
+    "quota": {
+      "header": "Quotas",
+      "quotaType": "Quota type",
+      "quotaTypes": {
+        "BIG_INVESTORS": "Large investors",
+        "MASS_RELOCATION": "Mass relocation"
+      },
+      "contractNo": "Investment contract no",
+      "contractDate": "Investment contract date",
+      "assigned": "Assigned quota",
+      "free": "Remaining quota",
+      "used": "Used quota"
+    },
+    "btnConfirm": "Submit",
+    "btnSave": "Save",
+    "confirm": "Do you want to submit mediation letter?",
+    "schengenInfo": "In order to obtain a Schengen visa on the basis of a Schengen visa mediation letter (hereinafter - invitation), an alien must indicate the invitation number to the Lithuanian Visa Office abroad, and when applying to the diplomatic mission or consular post of another Schengen state abroad form invitation.<br>The inviter may withdraw the invitation through the Lithuanian Migration Information System if a Schengen visa has not yet been issued on the basis of this invitation, unless the alien applies for a Schengen visa to a diplomatic mission or consular post of another Schengen state representing the Republic of Lithuania.<br>Do you want to submit mediation letter?",
+    "confirmTrVisa": "Agree and submit",
+    "steps": {
+      "mediation": "Mediation letter",
+      "fee": "State fee",
+      "summary": {
+        "default": "Successfully submitted"
+      }
+    },
+    "states": {
+      "DRAFT": "Draft",
+      "SUBMITTED": {
+        "default": "Submitted",
+        "FREE": "Submitted",
+        "UNPAID": "Unpaid",
+        "PAID": "Submitted"
+      },
+      "USED": "Used",
+      "CANCELED": "Canceled",
+      "EXPIRED": "Expired"
+    },
+    "types": {
+      "NATIONAL_VISA": "On national visa",
+      "SCHENGEN_VISA": "On Schengen visa",
+      "LLG": "For issuing / changing a temporary residence permit",
+      "EMPLOYMENT": "Change employer or job function",
+      "PASAS_TARNYBINIS": "For issuing/changing an official passport"
+    }
+  },
+  "pis": {
+    "header": "List of approved companies",
+    "search": "Find approved company",
+    "companyName": "Company name",
+    "companyCode": "Company code",
+    "decisionDate": "Decision date",
+    "announcedDate": "Announce date",
+    "approvedTo": "Date until the company is listed",
+    "companyEconomicActivity": "Economic activity (ies) under which the company is included in the list of Approved Companies",
+    "comments": "Notes",
+    "branchOrRepresentativeOfficeShortText": "ICT"
+  },
+  "certificates": {
+    "title": "Document certificates",
+    "type": "Type",
+    "status": "Status",
+    "revokeReason": "Revocation reason",
+    "notes": "Note",
+    "checkATKCertificates": "Check ATK certificates",
+    "certificateActionTitle": {
+      "SUSPEND": "Suspend certificate",
+      "REVOKE": "Revoke certificate"
+    },
+    "certificateType": {
+      "A": "Authentication",
+      "P": "Signature"
+    }
+  },
+  "identityDocument": {
+    "personalDocument": "My documents",
+    "childrenDocuments": "Documents of my minor children",
+    "issuingPersonal": "My issuing documents",
+    "issuingChildren": "Issuing documents of my minor children",
+    "lostDocument": "Notify about lost document",
+    "activateCertificates": {
+      "btn": "Activate certificates",
+      "confirmDialogTitle": {
+        "ER": "Are you sure you want to activate certificates?<br/> By confirming, you agree that you have read the rules for using the certificate.</br>The rules for using the certificate can be found <a href='https://migracija.lrv.lt/en/useful-information/electronic-signature' target='_blank'>here</a>",
+        "I": "Are you sure you want to activate certificates?<br/> By confirming, you agree that you have read the rules for using the certificate.</br>The rules for using the certificate can be found <a href='https://www.nsc.vrm.lt/docs/ATK_salygos_v2.8.pdf' target='_blank'>here</a>"
+      }
+    },
+    "chipInfo": "Certificate",
+    "chipInfoStates": {
+      "NEW": "Not activated",
+      "SUSPENDED": "Suspended",
+      "ACTIVATED": "Activated",
+      "REVOKED": "Revoked"
+    },
+    "chipInfoNotes": "<b>Certificate suspension note:</b><br/> {{notes}}",
+    "showCodes": {
+      "btn": "Show PIN / PUK codes",
+      "dialogContent": "PIN: {{pin}}<br/>PUK: {{puk}}"
+    },
+    "documentType": "Document",
+    "documentNo": "Document No.",
+    "title": "Given names",
+    "personalCode": "Personal No.",
+    "iltuCode": "ILTU code",
+    "issueDate": "Date of issue",
+    "validTo": "Valid until",
+    "invalidFrom": "Invalid from",
+    "statusTitle": "Status",
+    "documentReceived": "I have received document",
+    "docStatus": {
+      "G": "Valid",
+      "N": "Invalid"
+    },
+    "status": {
+      "IN_PROGRESS": "In progress",
+      "PRODUCED": "Produced"
+    },
+    "created": "Date of application",
+    "event": {
+      "title": "Document event",
+      "tooltip": {
+        "documentInLocation": "Document currently at:"
+      },
+      "enumValues": {
+        "FOUND": "Found",
+        "IKNR_KPDP_FOUND": "Document(s) subject to a supervision measure (Register of suspects, accused and convicted persons)"
+      },
+      "renewIknrKpdpStatus": "Renew IKNR status"
+    },
+    "conversationConfirmation": {
+      "text": "<span style=\"font-family:'Arial Bold', 'Arial', sans-serif;font-weight:700;color:#D9001B;\">Please note that if you report the loss of an identity document, it may be automatically declared invalid and unusable.<br/>You will have to re-order the production of the invalidated ID document.<br/><br/>If you agree to the invalidation of the identity document, please enter the code we have emailed you:</span>"
+    }
+  },
+  "nam": {
+    "header": "Unwanted persons list",
+    "search": "Find unwanted person",
+    "vardas": "Name (-s)",
+    "pavarde": "Surname (-s)",
+    "gimimoData": "Date of birth",
+    "lytis": "Gender",
+    "pilietybe": "Nationality (-ies)",
+    "priezastis": "Prohibition to Enter the Republic of Lithuania reason",
+    "uzdraustaIki": "Prohibition to Enter the Republic of Lithuania term",
+    "lytisEnum": {
+      "V": "Male",
+      "M": "Female"
+    },
+    "person": {
+      "name": "Name (-s)",
+      "surname": "Surname (-s)",
+      "birthDay": "Date of birth",
+      "birthdayPrecision": "Date of birth precision",
+      "nationality": "Nationality"
+    }
+  },
+  "statistics": {
+    "applicationProcessing": {
+      "header": "The average duration for making a decision on a person's application is presented based on the documents issued and the grounds for issuing thereof",
+      "footer": "Calculation of the average duration of the application processing can be found <a href='https://www.migracija.lt/vidutinės-trukmės-apskaičiavimo-tvarka'>here</a>",
+      "chart": {
+        "axis": {
+          "y": "Calendar days"
+        },
+        "series": {
+          "s1": "Actual duration",
+          "s2": "Actual duration",
+          "s3": "Urgent order",
+          "s4": "General order"
+        }
+      },
+      "parentGroup": {
+        "BL_ASM_DOK_ISD": "Issuance of identity documents",
+        "BL_PIL_KLAUSIMAI": "Citizenship issues",
+        "BL_LEID_GYVENTI": "Residence permits"
+      },
+      "groupEnum": {
+        "GR_LR_PASAS": "Passport of the Republic of Lithuania",
+        "GR_ATK": "Personal identity card",
+        "GR_LR_PIL_GRAZINIM": "The restoration of citizenship of the Republic of Lithuania",
+        "GR_LR_PIL_ISSAUG": "The retention of citizenship of the Republic of Lithuania",
+        "GR_LR_PIL_SUT_SUP_TVARK": "Granting citizenship of the Republic of Lithuania in a simplified procedure",
+        "GR_LR_PIL_NETEKIM": "The loss of citizenship of the Republic of Lithuania upon acquisition of citizenship of another state",
+        "GR_LR_PIL_ATSISAK": "The renunciation of citizenship of the Republic of Lithuania",
+        "GR_LR_PIL_ATKURIMAS": "The reinstatement of citizenship of the Republic of Lithuania",
+        "GR_LR_PIL_SUT_NATUR": "Granting citizenship of the Republic of Lithuania by way of naturalisation",
+        "GR_LT_KILM_PAZ_ISD": "Certificate of Lithuanian origin - issuance",
+        "GR_LT_KILM_PAZ_KEIT": "Certificate of Lithuanian origin - renewal",
+        "GR_PIL_ATKUR_PAZ_ISD": "Certificate attesting the right to reinstate citizenship of the Republic of Lithuania - issuance",
+        "GR_PIL_ATKUR_PAZ_KEIT": "Certificate attesting the right to reinstate citizenship of the Republic of Lithuania - renewal",
+        "GR_ASM_BE_PIL_KEL_DOK": "Travel document of a stateless person",
+        "GR_LLG_ISD_SEIM_SUSIJ": "TRP issuance - family",
+        "GR_LLG_ISD_KVALIF_DARB": "TRP issuance - highly qualified employees",
+        "GR_LLG_ISD_TEIS_VEIKL_PAGR": "TRP issuance - other legal activity",
+        "GR_LLG_ISD_DARBAS": "TRP issuance - work",
+        "GR_LLG_ISD_STUDENTAI": "TRP issuance - studies",
+        "GR_LLG_ISD_KITA": "TRP issuance - other",
+        "GR_LLG_ISD_VERSL": "TRP issuance - business",
+        "GR_LLG_KEITIMAS": "TRP renewal",
+        "GR_LNG_ISD": "PRP issuance",
+        "GR_LNG_KEIT": "PRP renewal",
+        "GR_DARBD_FUNKC_KEIT": "Change of employer or job function",
+        "GR_LAIK_GYV_LR_PAZ": "Temporary residence certificate",
+        "GR_NUOL_GYV_LR_PAZ": "Permanent residence certificate",
+        "GR_ES_LLG_KORT_ISD": "EU TRP card issuance",
+        "GR_ES_LLG_KORT_KEIT": "EU TRP card renewal",
+        "GR_ES_LNG_KORT_ISD": "EU PRP card issuance",
+        "GR_ES_LNG_KORT_KEIT": "EU PRP card renewal",
+        "GR_UZSIEN_PASAS": "A foreigner passport",
+        "GR_PABEG_KEL_DOK": "Refugee travel documents"
+      }
+    }
+  },
+  "ipt": {
+    "retrieve": {
+      "hint": "If you applied through an external service provider, you can only collect the issued document in person",
+      "SAME_AS_APP_SUBMITTED_DEPARTMENT": "Personal document I will collect on same institution",
+      "OTHER": "Personal document I will collect on other institution"
+    }
+  },
+  "retrieve": {
+    "header": "Division where you will come to pick up the produced document.*",
+    "headerPersonally": "Division where you will personally come to pick up the produced document.*"
+  },
+  "vds": {
+    "scan": "Scan",
+    "verified": "Verified",
+    "type": {
+      "Vds": "UNKNOWN DOCUMENT",
+      "Visa": "VISA",
+      "BsiResidencePermit": "BSI RESIDENCE PERMIT",
+      "LtuResidencePermit": "DIGITAL TEMPORARY RESIDENCE PERMIT IN THE REPUBLIC OF LITHUANIA"
+    },
+    "data": {
+      "issuingCountry": "Issuing country",
+      "certificateReference": "Certificate",
+      "documentIssueDate": "Date of issue",
+      "documentNumber": "Document No",
+      "surname": "Surname",
+      "givenNames": "Given names",
+      "dateOfBirth": "Date of birth",
+      "sex": "Sex",
+      "expirationDate": "Date of expiry",
+      "nationality": "Nationality",
+      "personalCode": "Personal code"
+    },
+    "sex": {
+      "MALE": "MALE",
+      "FEMALE": "FEMALE"
+    },
+    "status": {
+      "valid": "Document is valid",
+      "DOCUMENT_TYPE_INVALID": "Invalid document type",
+      "DOCUMENT_NOT_YET_VALID": "Document is not yet valid",
+      "DOCUMENT_EXPIRED": "Document expired",
+      "DOCUMENT_NOT_FOUND": "Document not found",
+      "DOCUMENT_NOT_VALID": "Document not valid",
+      "DOCUMENT_NOT_VALID_FROM": "Document not valid from {{arg}}",
+      "CERTIFICATE_NOT_FOUND": "Certificate not found",
+      "CERTIFICATE_EXPIRED": "Certificate expired",
+      "SIGNATURE_INVALID": "Signature invalid",
+      "SIGNATURE_CHECK_ERROR": "Signature check error",
+      "MRZ_INVALID": "MRZ error",
+      "FAILED_TO_CHECK_VALIDITY": "Failed to check document validity"
+    },
+    "error": {
+      "BARCODE_NOT_FOUND": "Barcode not found",
+      "BARCODE_ERROR": "Barcode decoding error",
+      "VDS_DECODING_FAILED": "VDS decoding failed",
+      "NO_DEVICES_FOUND": "No devices found",
+      "PERMISSION_DENIED": "Camera permission denied",
+      "SCAN_ERROR": "Scan error"
+    }
+  },
+  "border-record": {
+    "new": "Add records",
+    "newDialog": "Add a new border crossing entry",
+    "deleted": "Delete record",
+    "confirmDeleted": "Are you sure you want to delete the entry?",
+    "crossingDirectionEnum": {
+      "ENTRY_RECORD": "Arrival",
+      "EXIT_RECORD": "Departure"
+    },
+    "crossingDirection": "Direction",
+    "date": "Date",
+    "crossingDate": "Date of border crossing",
+    "country": "Country",
+    "location": "Location",
+    "locationCross": "Border crossing point",
+    "outCountry": "From the country",
+    "inCountry": "To the country",
+    "calculator": "During the last {{ period }} d, a total of {{ stayed }} d were spent in Lithuania, {{ left }} d remained.",
+    "info": "<span>If you can stay in the Schengen area for no longer than 90 days in any 180-day period, you can use this calculator to calculate how many more days you can stay in the Schengen area. In the calculator, enter the data for all external border crossings of the Schengen States from {{ fromDate }} to {{ toDate }}.<br/><br/><b>Important.</b> This calculator is a helpful tool for calculating the period of your legal stay in the Schengen area. However, if you enter inaccurate or false data, the result of the calculator may not correspond to the legal period of your stay in the Schengen area.<br/><br/>To start using the calculator, click the \"Add record\" button. Only arrival from a third country to a member state of the Schengen area or departure from a member state of the Schengen area to a third country should be indicated in the calculator (if you indicate trips within the Schengen area or outside the Schengen area, such trips will not be counted).</span>",
+    "errorFromToStateMatch": "The exit and entry country cannot match"
+  },
+  "adisRefCodes": {
+    "SERTIFIKATO_ATSAUKIMO_PRZ": {
+      "1": "not specified",
+      "2": "suspicion regarding the key",
+      "3": "suspicion regarding authority",
+      "4": "membership changed",
+      "5": "certificate modification",
+      "6": "action termination"
+    }
+  },
+  "audit": {
+    "list": "Login history",
+    "eventDate": "Time",
+    "ip": "IP address"
+  }
+}
