@@ -29,5 +29,7 @@ public class EmailService {
     message.setSubject(subject);
     message.setText(text);
     message.setFrom("yaraslauski.maksim@gmail.com");
+
+    mailSender.send(message);
   }
 }

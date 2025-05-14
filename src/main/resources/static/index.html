@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Migris Sync</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Migris Sync</h1>
+        </header>
+        <main>
+            <section class="card background-control">
+                <h2>Background Process Control</h2>
+                <div class="controls">
+                    <button id="startBtn" class="btn">Start Background Process</button>
+                    <button id="stopBtn" class="btn">Stop Background Process</button>
+                </div>
+            </section>
+
+            <section class="card subscriber-management">
+                <h2>Subscriber Management</h2>
+                <div class="controls">
+                    <a href="subscribers.html" class="btn btn-primary">View All Subscribers</a>
+                    <button id="deleteAllBtn" class="btn btn-danger">Delete All Subscribers</button>
+                    <button id="addSubscriberBtn" class="btn btn-success">Add New Subscriber</button>
+                </div>
+
+                <!-- Subscriber List -->
+                <div class="subscriber-list" style="display: none;">
+                    <h3>Subscribers</h3>
+                    <div id="subscribersList"></div>
+                </div>
+
+                <!-- Add Subscriber Form -->
+                <div class="add-subscriber-form" style="display: none;">
+                    <h3>Add New Subscriber</h3>
+                    <form id="subscriberForm">
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="serviceType">Service Type:</label>
+                            <select id="serviceType" required></select>
+                        </div>
+                        <div class="form-group">
+                            <label for="institution">Institution:</label>
+                            <select id="institution" required disabled></select>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingDate">Booking Date:</label>
+                            <input type="date" id="bookingDate" required>
+                        </div>
+                        <button type="submit" class="btn btn-success">Add Subscriber</button>
+                        <button type="button" class="btn btn-secondary" id="cancelAddSubscriber">Cancel</button>
+                    </form>
+                </div>
+
+                <!-- Edit Booking Form -->
+                <div class="edit-booking-form" style="display: none;">
+                    <h3>Edit Booking</h3>
+                    <form id="editBookingForm">
+                        <input type="hidden" id="editBookingId">
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <span id="editEmail" class="form-text"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Service:</label>
+                            <span id="editService" class="form-text"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Institution:</label>
+                            <span id="editInstitution" class="form-text"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="editBookingDate">Booking Date:</label>
+                            <input type="date" id="editBookingDate" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Update Booking</button>
+                        <button type="button" class="btn btn-secondary" id="cancelEditBooking">Cancel</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -50,3 +50,32 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+// Frontend resource handling
+processResources {
+    // Make sure to include all static resources
+    exclude 'static/**'
+    doLast {
+        copy {
+            from 'src/main/resources/static'
+            into "${buildDir}/resources/main/static"
+        }
+    }
+}
+
+// Task to process frontend resources separately (useful for development)
+task processFrontendResources(type: Copy) {
+    from 'src/main/resources/static'
+    into "${buildDir}/resources/main/static"
+}
+
+// Make build task depend on frontend processing
+bootJar.dependsOn processFrontendResources
+
+// Development task to quickly refresh frontend resources
+task refreshFrontend(type: Copy) {
+    from 'src/main/resources/static'
+    into "${buildDir}/resources/main/static"
+    description = "Quickly refresh frontend resources for development"
+    group = "Frontend"
+}

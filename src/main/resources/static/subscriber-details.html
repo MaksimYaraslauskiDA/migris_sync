@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber Details - Migris Sync</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Migris Sync - Subscriber Details</h1>
+            <nav class="main-nav">
+                <a href="subscribers.html" class="btn btn-secondary">Back to Subscribers</a>
+            </nav>
+        </header>
+        <main>
+            <section class="card subscriber-details">
+                <h2>Subscriber: <span id="subscriberEmail"></span></h2>
+                <div id="bookingsList"></div>
+            </section>
+
+            <!-- Edit Booking Modal -->
+            <div id="editBookingModal" class="modal" style="display: none;">
+                <div class="modal-content">
+                    <h3>Update Booking Date</h3>
+                    <form id="editBookingForm">
+                        <input type="hidden" id="editBookingId">
+                        <div class="form-group">
+                            <label>Service:</label>
+                            <span id="editServiceInfo" class="form-text"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Institution:</label>
+                            <span id="editInstitutionInfo" class="form-text"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="editBookingDate">New Booking Date:</label>
+                            <input type="date" id="editBookingDate" required>
+                        </div>
+                        <div class="modal-actions">
+                            <button type="submit" class="btn btn-primary">Update</button>
+                            <button type="button" class="btn btn-secondary" id="cancelEdit">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Edit Booking Form -->
+            <div class="edit-booking-form" style="display: none;">
+                <h3>Edit Booking</h3>
+                <form id="editBookingForm">
+                    <input type="hidden" id="editBookingId">
+                    <div class="form-group">
+                        <label>Service:</label>
+                        <span id="editService" class="form-text"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Institution:</label>
+                        <span id="editInstitution" class="form-text"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="editBookingDate">Booking Date:</label>
+                        <input type="date" id="editBookingDate" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Update Booking</button>
+                    <button type="button" class="btn btn-secondary" id="cancelEditBooking">Cancel</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="js/subscriber-details.js"></script>
+</body>
+</html>

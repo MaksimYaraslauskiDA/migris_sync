@@ -26,6 +26,11 @@ public class BackgroundService {
   private final TimeslotService timeslotService;
   private final EmailService emailService;
 
+  public boolean status() {
+    log.info("Getting status of background service: {}", isRunning);
+    return isRunning;
+  }
+
   public void stopBackground() {
     log.info("Stopping background service");
     isRunning = false;
