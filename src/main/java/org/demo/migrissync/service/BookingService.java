@@ -47,7 +47,7 @@ public class BookingService {
       .collect(Collectors.toSet());
   }
 
-  public UUID add(BookingRequest bookingRequest) {
+  public String add(BookingRequest bookingRequest) {
     Booking booking = bookingRepository.save(new Booking(
       uuidGenerator.generateUUID(),
       bookingRequest.bookingDate(),
@@ -73,7 +73,7 @@ public class BookingService {
       );
   }
 
-  public void remove(UUID id) {
+  public void remove(String id) {
     bookingRepository.findById(id)
       .ifPresentOrElse(booking -> {
         bookingRepository.deleteById(booking.getId());
@@ -81,7 +81,7 @@ public class BookingService {
       }, () -> log.warn("Booking with id " + id + " not found"));
   }
 
-  public void removeByIds(List<UUID> ids) {
+  public void removeByIds(List<String> ids) {
     log.info("Removing services for booking {}", ids);
     bookingRepository.deleteAllById(ids);
   }

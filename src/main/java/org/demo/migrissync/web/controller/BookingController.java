@@ -17,7 +17,6 @@ import java.time.LocalDate;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/booking")
@@ -50,7 +49,7 @@ public class BookingController {
   }
 
   @DeleteMapping("/subscribers/{id}")
-  public void deleteBooking(@PathVariable UUID id) {
+  public void deleteBooking(@PathVariable String id) {
     bookingService.remove(id);
   }
 

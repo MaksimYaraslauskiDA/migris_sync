@@ -3,10 +3,9 @@ package org.demo.migrissync.dto;
 import org.demo.migrissync.dao.entity.Booking;
 
 import java.time.LocalDate;
-import java.util.UUID;
 
 public record BookingModel(
-  UUID id,
+  String id,
   String email,
   String serviceKey,
   String serviceDescription,

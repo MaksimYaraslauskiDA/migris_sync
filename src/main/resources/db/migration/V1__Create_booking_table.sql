@@ -1,5 +1,5 @@
 CREATE TABLE booking (
-    id CHAR(36) PRIMARY KEY,
+    id VARCHAR(36) PRIMARY KEY,
     subscribed_at DATE NOT NULL,
     email VARCHAR(255) NOT NULL,
     service_key VARCHAR(255) NOT NULL,

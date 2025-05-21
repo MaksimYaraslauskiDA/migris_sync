@@ -87,7 +87,7 @@ public class BackgroundService {
             subscribedAt, nearestDate, timeslots, serviceDescription, institutionTitle);
 
           log.info("New timeslot: {}", message);
-          emailService.sendEmail(subscribers.stream().map(SubscriberGroupInfo::email).toList(), "New timeslot: " + subscribedAt, message);
+          emailService.sendEmail(subscribers.stream().map(SubscriberGroupInfo::email).toList(), "New timeslot: " + nearestDate, message);
           bookingService.removeByIds(subscribers.stream().map(SubscriberGroupInfo::id).toList());
         } else {
           log.info("No new nearest date for {}", serviceType);
