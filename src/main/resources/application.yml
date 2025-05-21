@@ -13,22 +13,27 @@ spring:
           starttls:
             enable: true
   datasource:
-    url: jdbc:h2:mem:productdb
-    username: sa
-    password: password
-    driver-class-name: org.h2.Driver
+#    url: jdbc:h2:mem:productdb
+#    username: sa
+#    password: password
+#    driver-class-name: org.h2.Driver
+    url: jdbc:mysql://34.57.168.101:3306/migris?socketFactory=com.google.cloud.sql.mysql.SocketFactory&cloudSqlInstance=migration-sync-459815:us-central1:migris&useSSL=false
+    username: migris_user
+    password: no.85112
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
+#    database-platform: org.hibernate.dialect.H2Dialect
+    database-platform: org.hibernate.dialect.MySQLDialect
     hibernate:
       ddl-auto: validate
     show-sql: true
     properties:
       hibernate:
         format_sql: true
-  h2:
-    console:
-      enabled: true
-      path: /h2-console
+#  h2:
+#    console:
+#      enabled: true
+#      path: /h2-console
   flyway:
     enabled: true
     baseline-on-migrate: true
