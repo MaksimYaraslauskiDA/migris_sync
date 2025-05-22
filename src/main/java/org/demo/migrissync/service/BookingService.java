@@ -29,12 +29,12 @@ public class BookingService {
 
   public Collection<BookingModel> getAllBookings() {
     log.info("Getting all bookings");
-    return bookingRepository.findAll().stream().map(BookingModel::new).collect(Collectors.toList());
+    return bookingRepository.findByIsActiveTrue().stream().map(BookingModel::new).collect(Collectors.toList());
   }
 
   public Collection<Subscriber> getAllSubscribers() {
     log.info("Getting all subscribers");
-    return bookingRepository.findAll().stream()
+    return bookingRepository.findByIsActiveTrue().stream()
       .map(Booking::getEmail)
       .map(Subscriber::new)
       .collect(Collectors.toSet()); //Reduce collection to unique subscribers
@@ -42,7 +42,7 @@ public class BookingService {
 
   public Collection<BookingModel> getServices(String email) {
     log.info("Getting services for subscriber {}", email);
-    return bookingRepository.findAllByEmail(email).stream()
+    return bookingRepository.findByEmailAndIsActiveTrue(email).stream()
       .map(BookingModel::new)
       .collect(Collectors.toSet());
   }
@@ -57,14 +57,15 @@ public class BookingService {
       bookingRequest.serviceKey(),
       bookingRequest.serviceDescription(),
       bookingRequest.institutionKey(),
-      bookingRequest.institutionDescription()
+      bookingRequest.institutionDescription(),
+      true
     ));
     return booking.getId();
   }
 
   public void update(BookingUpdateRequest bookingUpdateRequest) {
     log.info("Updating booking {}", bookingUpdateRequest.id());
-    bookingRepository.findById(bookingUpdateRequest.id())
+    bookingRepository.findByIdAndIsActiveTrue(bookingUpdateRequest.id())
       .ifPresentOrElse(booking -> {
           booking.setSubscribedAt(bookingUpdateRequest.bookingDate());
           bookingRepository.save(booking);
@@ -74,25 +75,30 @@ public class BookingService {
   }
 
   public void remove(String id) {
-    bookingRepository.findById(id)
+    bookingRepository.findByIdAndIsActiveTrue(id)
       .ifPresentOrElse(booking -> {
-        bookingRepository.deleteById(booking.getId());
+        booking.setIsActive(false);
+        bookingRepository.save(booking);
         log.info("Removed service {} subscription for {}", booking.getServiceKey(), booking.getEmail());
       }, () -> log.warn("Booking with id " + id + " not found"));
   }
 
   public void removeByIds(List<String> ids) {
     log.info("Removing services for booking {}", ids);
-    bookingRepository.deleteAllById(ids);
+    List<Booking> updatedBookings = bookingRepository.findByIdInAndIsActiveTrue(ids).stream()
+      .peek(booking -> booking.setIsActive(false))
+      .toList();
+    bookingRepository.saveAll(updatedBookings);
   }
 
   public void removeAll(String email) {
     log.info("Removing all subscriptions for {}", email);
-    Collection<Booking> bookingsForRemove = bookingRepository.findAllByEmail(email);
+    Collection<Booking> bookingsForRemove = bookingRepository.findByEmailAndIsActiveTrue(email);
+    bookingsForRemove.forEach(booking -> booking.setIsActive(false));
     if (bookingsForRemove.isEmpty()) {
       log.warn("No subscriptions found for {}", email);
     } else {
-      bookingRepository.deleteAllById(bookingsForRemove.stream().map(Booking::getId).collect(Collectors.toList()));
+      bookingRepository.saveAll(bookingsForRemove);
       log.info("Removed all subscriptions for {}", email);
     }
   }

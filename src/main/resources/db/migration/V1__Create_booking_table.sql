@@ -7,5 +7,6 @@ CREATE TABLE booking (
     institution_key VARCHAR(255) NOT NULL,
     institution_description VARCHAR(1000) NOT NULL,
     creation_timestamp TIMESTAMP NOT NULL,
-    update_timestamp TIMESTAMP NOT NULL
+    update_timestamp TIMESTAMP NOT NULL,
+    is_active BOOLEAN NOT NULL
 ) ENGINE=InnoDB;

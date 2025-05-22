@@ -42,4 +42,7 @@ public class Booking {
   @Column(name = "institution_description", nullable = false)
   String institutionDescription;
 
+  @Column(name = "is_active", nullable = false)
+  private Boolean isActive;
+
 }

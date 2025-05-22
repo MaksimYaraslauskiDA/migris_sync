@@ -1,5 +1,6 @@
 package org.demo.migrissync.service;
 
+import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -31,11 +32,7 @@ public class BackgroundService {
     return isRunning;
   }
 
-  public void stopBackground() {
-    log.info("Stopping background service");
-    isRunning = false;
-  }
-
+  @PostConstruct
   public void startBackground() {
     log.info("Starting background service");
     isRunning = true;
@@ -50,6 +47,11 @@ public class BackgroundService {
         }
       }
     }).start();
+  }
+
+  public void stopBackground() {
+    log.info("Stopping background service");
+    isRunning = false;
   }
 
   private void processBooking() {

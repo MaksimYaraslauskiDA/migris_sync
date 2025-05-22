@@ -30,7 +30,6 @@ $(document).ready(function() {
                     <a href="subscriber-details.html?email=${encodeURIComponent(subscriber.email)}" class="subscriber-link">
                         <div class="subscriber-info">
                             <span class="subscriber-email">${subscriber.email}</span>
-                            <span class="subscriber-count">Subscriptions: ${subscriber.bookings ? subscriber.bookings.length : 0}</span>
                         </div>
                     </a>
                     <div class="subscriber-actions">
